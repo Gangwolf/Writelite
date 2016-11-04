@@ -2,27 +2,26 @@
   "name": "Writelite",
   "description": "A minimal note taking app inspired by Litewrite",
   "author": "Dan",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --inline --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "vue": "^2.0.1",
-    "vue-resource": "^1.0.3",
+    "vue": "^2.0.3",
     "vuex": "^2.0.0"
   },
   "devDependencies": {
-    "babel-core": "^6.17.0",
-    "babel-loader": "^6.2.5",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
     "babel-plugin-transform-object-rest-spread": "^6.16.0",
-    "babel-preset-es2015": "^6.16.0",
-    "cross-env": "^3.0.0",
+    "babel-preset-es2015": "^6.18.0",
+    "cross-env": "^3.1.3",
     "css-loader": "^0.25.0",
     "file-loader": "^0.9.0",
-    "vue-loader": "^9.5.0",
-    "webpack": "2.1.0-beta.22",
-    "webpack-dev-server": "^2.1.0-beta.8"
+    "vue-loader": "^9.7.0",
+    "webpack": "^2.1.0-beta.25",
+    "webpack-dev-server": "^2.1.0-beta.10"
   }
 }
